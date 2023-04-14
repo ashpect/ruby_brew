@@ -2,8 +2,8 @@ class Hello < Formula
     desc "A simple Ruby script that prints 'Hello, world!'"
     #Homepage not required
     #homepage "https://example.com"
-    url "https://example.com/hello-1.0.tar.gz"
-    sha256 "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef"
+    url "https://github.com/ashpect/ruby_brew/blob/main/hello.rb"
+    sha256 "3c410327fc1e072ac6fbdfaf49c3af68bee9f2b4c356a1e765fe1549abdeb450"
   
     def install
       bin.install "hello.rb"
